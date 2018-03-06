@@ -1,0 +1,20 @@
+jungjj@linux-3hqy:~/dev/kernel/linux-2.6.31-study/study/list> ll
+total 80
+-rw-r--r-- 1 jungjj users 20731 2011-12-05 17:38 list.h
+-rwxr-xr-x 1 jungjj users 10803 2011-11-20 23:06 list01
+-rw-r--r-- 1 jungjj users  1844 2011-11-20 23:06 list01.c
+-rwxr-xr-x 1 jungjj users 11175 2011-12-06 22:05 list02
+-rw-r--r-- 1 jungjj users  1293 2011-12-05 17:38 list02.c
+-rwxr-xr-x 1 jungjj users 11232 2011-12-07 14:12 list03
+-rwxr-xr-x 1 jungjj users  2130 2011-12-07 14:12 list03.c
+-rw-r--r-- 1 jungjj users  1162 2011-12-07 14:07 list03_result.txt
+-rw-r--r-- 1 jungjj users  2119 2009-09-25 00:45 poison.h
+jungjj@linux-3hqy:~/dev/kernel/linux-2.6.31-study/study/list> gcc -o list02 list02.c
+jungjj@linux-3hqy:~/dev/kernel/linux-2.6.31-study/study/list> ./list02
+fox value: white_fox, 50, 20, 1
+
+fox value: red_fox, 40, 10, 0
+
+fox value: black_fox, 30, 5, 0
+
+jungjj@linux-3hqy:~/dev/kernel/linux-2.6.31-study/study/list>

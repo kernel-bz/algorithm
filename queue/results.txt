@@ -1,0 +1,2 @@
+﻿2281 Dec  6 20:35:38 linux-3hqy kernel: **my_misc driver init**
+2282 Dec  6 20:35:41 linux-3hqy kernel: my_misc: kfifo=This is kfifo test function named fn01_kfifo_test() in the my_misc.

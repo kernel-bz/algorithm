@@ -1,8 +1,8 @@
 /**
- *  File name :     list02.c
+ *  File name :     list02_2.c
  *  Comments :       list study in the Linux Kerenl
  *  Source from:    /linux/include/list.h
- *  Author :        Jung,JaeJoon (rgbi3307@nate.com)
+ *  Author :        Jung,JaeJoon (rgbi3307@nate.com) on the www.kernel.bz
  *  Creation:       2016-02-26
  *      GPL 라이센서에 따라서 위의 저자정보는 삭제하지 마시고 공유해 주시기 바랍니다.
   *          수정한 내용은 아래의  Edition란에 추가해 주세요.
@@ -47,8 +47,8 @@ int main (void)
 	struct list_head *p;
 	struct fox *f;
 
-	list_add(&red_fox.list, &fox_list);
-	list_add(&white_fox.list, &fox_list);
+	list_add_tail(&red_fox.list, &fox_list);
+	list_add_tail(&white_fox.list, &fox_list);
 
 	f = malloc(sizeof(*f));
 	strcpy(f->name,  "black_fox");

@@ -2,7 +2,7 @@
  *  File name :     list02.c
  *  Comments :       list study in the Linux Kerenl
  *  Source from:    /linux/include/list.h
- *  Author :        Jung,JaeJoon (rgbi3307@nate.com)
+ *  Author :        Jung,JaeJoon (rgbi3307@nate.com) on the www.kernel.bz
  *  Creation:       2016-02-26
  *      GPL 라이센서에 따라서 위의 저자정보는 삭제하지 마시고 공유해 주시기 바랍니다.
   *          수정한 내용은 아래의  Edition란에 추가해 주세요.

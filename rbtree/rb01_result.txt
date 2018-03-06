@@ -1,0 +1,15 @@
+jungjj@linux-3hqy:~/dev/kernel/linux-2.6.31-study/study/tree> ll
+total 40
+-rwxr-xr-x 1 jungjj users 15575 2011-12-07 12:55 rb01
+-rw-r--r-- 1 jungjj users  2529 2011-12-07 12:55 rb01.c
+-rw-r--r-- 1 jungjj users  8703 2011-12-07 11:39 rbtree.c
+-rw-r--r-- 1 jungjj users  5284 2011-12-07 11:47 rbtree.h
+jungjj@linux-3hqy:~/dev/kernel/linux-2.6.31-study/study/tree> gcc -o rb01 rb01.c rbtree.c
+jungjj@linux-3hqy:~/dev/kernel/linux-2.6.31-study/study/tree> ./rb01
+rb_node: 0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7,
+value=0, rb_erase.
+rb_node: 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7,
+rb_drop:
+rb_node:
+rb_node: 0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7,
+jungjj@linux-3hqy:~/dev/kernel/linux-2.6.31-study/study/tree>
